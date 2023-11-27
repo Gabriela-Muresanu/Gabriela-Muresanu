@@ -14,17 +14,17 @@ var year = date.getFullYear();
 
 
 // Add eventListener
-buton.addEventListener("click", altaViata);
+buton.addEventListener("click", Pagina_2);
 an.addEventListener("mouseover", displayAge);
 
-function altaViata()
+function Pagina_2()
 {
 	nume.innerHTML = "Functie: Senior Java Dev";
 	prenume.innerHTML = "Locul muncii: Bali";
 	asteptari.innerHTML = "Experiente: sarit cu parasuta, patinaj, karting";
 
-	img.src = "baki.jpg";
-	body.style.backgroundColor = "red";
+	img.src = "peisaj.jpg";
+	body.style.backgroundColor = "#6495ED";
 	img.style.opacity = "0.7";
 	
 

@@ -1,3 +1,32 @@
+button{
+display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: pink;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:Pagina_2 span {
+  padding-right: 25px;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
 table{
 background-image: linear-gradient(pink, #FF00FF );
 }
@@ -8,27 +37,31 @@ background-image: linear-gradient(pink, #FF00FF );
 
 	h1{
 	background-color: #FFF0F5;
-	text-shadow: 2px 2px 5px black;
-	color:pink;
+	text-shadow: 2px 2px 5px #808080;
+	color:#FF00FF;
+	
 
 }
 
+
+
 h2{
 background-color: #FFF0F5;
-text-shadow: 2px 2px 5px black;
-	color:pink;
+text-shadow: 2px 2px 5px #808080;
+	color:#FF00FF;
 }
 
 h4{
 background-color: #FFF0F5;
 text-shadow: 2px 2px 5px black;
-	color:violet;
+	color:#8B008B;
 
 }
 
 h1, h2, h4{
 	font-family: 'Playfair Display', serif;
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+text-align:center;
 	
 }
 
@@ -37,6 +70,7 @@ max-width: 700px;
   height: 500px;
 border-style: outset;
  border-radius: 10px;
+
 
 }
 
@@ -52,3 +86,12 @@ background-image: linear-gradient(#FFF0F5, #FF00FF );
 p1{
 background-color:#FFF0F5;
 color: pink;
+
+body{
+background-color:#FFF8DC;
+}
+
+
+
+
+
